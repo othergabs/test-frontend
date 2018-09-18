@@ -13,7 +13,9 @@ import { HeaderComponent } from './components/header/header.component';
     CommonModule,
     HttpClientModule
   ],
-  exports: [],
+  exports: [
+    HeaderComponent
+  ],
   declarations: [
     HeaderComponent
   ],
@@ -22,4 +24,4 @@ import { HeaderComponent } from './components/header/header.component';
   ],
 })
 
-export class CoreModule {}
+export class CoreAppModule {}
